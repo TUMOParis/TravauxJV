@@ -1,2 +1,2 @@
 # TravauxJV
- Différents travaux d'étudiants de TUMOParis en Jeux vidéo
+ Différents travaux d'étudiant·e·s de TUMOParis en Jeux vidéo
