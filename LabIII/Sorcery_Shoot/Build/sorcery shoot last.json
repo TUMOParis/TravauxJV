@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Jeudi 17H30",
+"dataUrl": "sorcery shoot last.data.unityweb",
+"wasmCodeUrl": "sorcery shoot last.wasm.code.unityweb",
+"wasmFrameworkUrl": "sorcery shoot last.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}

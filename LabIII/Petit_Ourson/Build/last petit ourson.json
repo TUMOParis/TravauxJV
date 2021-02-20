@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Mercredi19h30",
+"dataUrl": "last petit ourson.data.unityweb",
+"wasmCodeUrl": "last petit ourson.wasm.code.unityweb",
+"wasmFrameworkUrl": "last petit ourson.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
