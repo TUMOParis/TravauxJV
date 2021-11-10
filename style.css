@@ -16,10 +16,13 @@
 
   .footer {
     position: fixed;
-    left: 15;
     bottom: 0;
     width: 100%;
-    text-align: left;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    background: #1abc9c;
+    color: #fff;
   }
 
   .presentation
@@ -105,3 +108,11 @@
   {
     height: 45%;
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #1abc9c;
+    color: #fff;
+}
