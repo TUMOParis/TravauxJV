@@ -14,14 +14,12 @@
     font-size: 30px;
   }
 
-  .footer
-  {
-    background: #1abc9c;
-    padding: 20px;
+  .footer {
     position: fixed;
-    left: 0;
+    left: 15;
     bottom: 0;
     width: 100%;
+    text-align: left;
   }
 
   .presentation
@@ -35,6 +33,7 @@
   {
     margin: 5%;
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .base
@@ -53,13 +52,18 @@
     border-style: groove;
     background-color: rgb(248, 246, 242);
     vertical-align: text-top;
-    height: 600;
+    height: 600px;
     padding-bottom: 20px;
   }
 
   img {
     width: 100%;
     object-fit:cover;
+  }
+
+  article
+  {
+    padding-bottom: 5px;
   }
 
   .logo
@@ -84,11 +88,6 @@
   nav
   {
     padding-bottom: 5px;
-  }
-
-  .section
-  {
-    padding: 50px;
   }
 
   a:link {
