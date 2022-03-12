@@ -9,7 +9,7 @@
   .header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: #8dc542;
     color: white;
     font-size: 30px;
   }
@@ -21,7 +21,15 @@
     justify-content: center;
     text-align: center;
     padding: 5px;
-    background: #1abc9c;
+    background: #8dc542;
+    color: #fff;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #8dc542;
     color: #fff;
   }
 
@@ -71,6 +79,29 @@
     vertical-align: text-top;
     height: 750px;
     padding-bottom: 20px;
+  }
+
+  figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    object-fit:cover;
+  }
+  figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
   }
 
   img {
@@ -123,10 +154,4 @@
     height: 45%;
   }
 
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background: #1abc9c;
-    color: #fff;
-}
+  
